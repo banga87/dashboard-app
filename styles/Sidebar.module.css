@@ -1,0 +1,25 @@
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #40B2E5; /* Blue */
+    color: #6F575A; /* Green */
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    color: #6F575A; /* Green */
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #F15F82; /* Pink */
+}
+
+

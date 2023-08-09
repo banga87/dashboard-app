@@ -1,0 +1,9 @@
+.header {
+    background-color: #F15F82; /* Pink */
+    padding: 10px;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
