@@ -1,24 +1,46 @@
-.sidebar {
-    width: 200px;
-    height: 100%;
-    background-color: #40B2E5; /* Blue */
-    color: #6F575A; /* Green */
-    padding: 20px;
+.logo {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.sidebar ul {
+.navbar {
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #40B1E5;
+}
+
+.navbarNav {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
 
-.sidebar a {
-    color: #6F575A; /* Green */
+.navbarItem {
+    width: 100%;
+}
+
+.navbarItem:last-child {
+    margin-top: auto;
+    margin-bottom: 5rem;
+}
+
+.navbarLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
     text-decoration: none;
-    padding: 10px;
-    display: block;
 }
 
-.sidebar a:hover {
+.navbar a:hover {
     background-color: #F15F82; /* Pink */
 }
 
